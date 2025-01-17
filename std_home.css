@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.btn-space{
+	height: 100vh;
+	width: 350px;	
+}
+
+.btn{
+	padding-top: 70px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.btn .lol{
+	width: 90%;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+
+.heading{
+	color: black;
+	text-align: center;
+	margin-top: -400px;
+	margin-left: 58%;
+
+}
+
+.heading h1{
+	font-size: 80px;
+
+}
+
+.heading h2{
+	margin-left: 24%;
+	font-size: 30px;
+	
+}
+
+@media screen and (max-width: 768px){
+
+
+.body{
+	width: 100;
+	height: 50%;
+	background-color: red;
+}
+
+.btn-space{
+	width: 100%;
+	background-color: black;
+	transition: 0.5s;
+}
+
